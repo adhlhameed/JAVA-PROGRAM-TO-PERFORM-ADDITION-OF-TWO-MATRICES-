@@ -6,7 +6,6 @@ To Perform addition of two matrices using Java programming language.
 ## APPARATUS REQUIRED:
 
 Computer
-
 Eclipse IDE
 
 ## THEORY:
