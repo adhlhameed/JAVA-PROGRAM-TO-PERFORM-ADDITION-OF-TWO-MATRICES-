@@ -77,22 +77,20 @@ public class MatrixAddition {
                 {3, 2, 1}
         };
 
-        int[][] result = new int[3][3]; // Resultant matrix
+        int[][] result = new int[3][3];
 
-        // Adding two matrices
+  
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 result[i][j] = matrix1[i][j] + matrix2[i][j];
             }
         }
-
-        // Printing the result
         System.out.println("Resultant Matrix:");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(result[i][j] + " ");
             }
-            System.out.println(); // New line after each row
+            System.out.println(); 
         }
     }
 }
